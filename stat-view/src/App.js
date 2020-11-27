@@ -3,6 +3,7 @@ import './App.css';
 
 
 
+
 function App() {
   return (
     <div>
@@ -21,15 +22,17 @@ function App() {
       <br/>
     </div>
     <div class="cards">
-      <div class="card">
+      <button class="card"> 
+
         <div class="card-header">
         </div>
         <div class="card-body" id="i3sdc">
+          
           <div class="card-title" id="ij7cl">Players
           </div>
         </div>
-      </div>
-      <div class="card">
+      </button>
+      <button class="card">
         <div class="card-header ch2">
         </div>
         <div class="card-body">
@@ -37,15 +40,15 @@ function App() {
           </div>
 
         </div>
-      </div>
-      <div class="card">
+      </button>
+      <button class="card">
         <div class="card-header ch3">
         </div>
         <div class="card-body" id="itbpi">
           <div class="card-title" id="in04e">Coaches
           </div> 
         </div>
-      </div>
+      </button>
     </div>
   </div>
 </section>
