@@ -1,3 +1,7 @@
+import './stat.css'
+
+
+
 <div>
 <div class="row">
 </div>
@@ -41,7 +45,7 @@
           <div id="ic50l">Select Season
             <br/>
           </div>
-          <select name="Select a Season" class="select" id="im2kl"><option value="">- Select option -</option><option value="">2018</option><option value="">2019</option><option value="">2020</option><option value="">All</option></select>
+          <select name="Select a Season" class="select" id="im2kl"><option value="1">- Select option -</option><option value="2">2018</option><option value="3">2019</option><option value="4">2020</option><option value="5">All</option></select>
           <div class="form-group">
           </div>
           <div class="form-group">

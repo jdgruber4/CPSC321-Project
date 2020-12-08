@@ -1,10 +1,18 @@
 
 import './App.css';
+import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 
 
-function App() {
+function App(){
+ 
   return (
     <div>
     <header class="header-banner">
@@ -22,8 +30,9 @@ function App() {
       <br/>
     </div>
     <div class="cards">
-      <button class="card"> 
-
+      <Router>
+      <Link to="/stat.js" class="card"> 
+      
         <div class="card-header">
         </div>
         <div class="card-body" id="i3sdc">
@@ -31,7 +40,7 @@ function App() {
           <div class="card-title" id="ij7cl">Players
           </div>
         </div>
-      </button>
+      </Link></Router>
       <button class="card">
         <div class="card-header ch2">
         </div>
