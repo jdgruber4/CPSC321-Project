@@ -86,3 +86,47 @@ body {
   margin-bottom:5px;
   text-align: center;
 }
+
+.test-table{
+  border-collapse:collapse;
+  border-color:#9ABAD9;
+  border-spacing:0;
+}
+
+
+.test-table td{
+  background-color:#EBF5FF;
+  border-color:#9ABAD9;
+  border-style:solid;
+  border-width:1px;
+  color:#444;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.test-table th{
+  background-color:#409cff;
+  border-color:#9ABAD9;
+  border-style:solid;
+  border-width:1px;
+  color:#fff;
+  font-family:Arial, sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  overflow:hidden;
+  padding:10px 5px;
+  word-break:normal;
+}
+
+.test-table .tg-hmp3{background-color:#D2E4FC;
+  text-align:left;
+  vertical-align:top
+}
+
+.test-table .tg-0lax{
+  text-align:left;
+  vertical-align:top
+}

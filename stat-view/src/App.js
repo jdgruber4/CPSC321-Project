@@ -80,7 +80,7 @@ else{
     </div>
     <div class="row" id="i0ya4">
       <div class="cell" id="iz6gh">
-        <div id="if0si">Insert your text here
+        <div id="if0si">add variable declaration to match catagory 
         </div>
       </div>
       <div class="cell" id="imc18">
@@ -136,11 +136,34 @@ else{
       <div class="cell" id="idwfg">
         <div id="ib7sw">Player table
           <br/>
-        </div>
       </div>
       <div class="cell" id="irlov">
         <div id="iluk1">Stat table
           <br/>
+          
+        </div>
+        <table class="test-table">
+          <thead>
+            <tr>
+              <th class="tg-0lax">Team Name</th>
+              <th class="tg-0lax">Wins</th>
+              <th class="tg-0lax">Losses</th>
+              <th class="tg-0lax">Draws</th>
+              <th class="tg-0lax">Superbowl Wins</th>
+              <th class="tg-0lax">Season</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax"></td>
+              <td class="tg-hmp3"></td>
+              <td class="tg-0lax"></td>
+              <td class="tg-hmp3"></td>
+              <td class="tg-0lax"></td>
+              <td class="tg-hmp3"></td>
+            </tr>
+          </tbody>
+          </table>
         </div>
       </div>
     </div>
