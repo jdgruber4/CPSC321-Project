@@ -4,13 +4,16 @@
 body {
   margin: 0;
 }
+.backButton {
+  padding:15px;
+}
 .clearfix{
   clear:both;
 }
 .header-banner{
   padding-top:35px;
   padding-bottom:100px;
-  color:#e0a64f;
+  color:#ffffff;
   font-family:Helvetica, serif;
   font-weight:100;
   background-image:url("/src/assets/fbFeild.jpg");
@@ -29,6 +32,8 @@ body {
   margin:150px 0 30px 0;
   font-size:40px;
   text-align: center;
+  font-size: 200px;
+  text-shadow: 2px 2px 40px black;
 }
 .flex-sect{
   background-color:#fafafa;
@@ -43,7 +48,7 @@ body {
   color:#555;
   padding:5px;
 }
-.cards{
+.cards{ 
   padding:20px 0;
   display:flex;
   justify-content:space-around;
@@ -66,6 +71,7 @@ body {
 }
 .card-header{
   height:255px;
+  width: 300px;
   background-image:url("/src/assets/Players.jpg");
   background-size:cover;
   background-position:center center;
