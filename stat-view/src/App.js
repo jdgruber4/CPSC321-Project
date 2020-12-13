@@ -18,17 +18,20 @@ activate = () => {
   this.setState({stat: 1 });
 }
 
+goBack = () => {
+  this.setState({stat: 0})
+}
+
 render() {
   if(this.state.stat == 0){
     return (
       
       <div>
-        <button class="card1" onClick={this.activate}> </button>
       <header class="header-banner">
     <div class="container-width" id="iu9f">
       <div class="clearfix">
       </div>
-      <div class="lead-title" id="ivrvk">Stat View
+      <div class="lead-title" id="ivrvk">NFL Stats
         <br/>
       </div>
     </div>
@@ -76,6 +79,7 @@ else{
   return (
 
     <div>
+    <button class="backButton" id= "backButton" onClick={this.goBack}>Go Back</button>
     <div class="row">
     </div>
     <div class="row" id="i0ya4">
@@ -140,11 +144,42 @@ else{
       </div>
       <div class="cell" id="irlov">
         <div id="iluk1">Stat table
+        <table class="stat-table">
+          <thead>
+            <tr>
+              <th class="tg-0lax">Team Name</th>
+              <th class="tg-0lax">Wins</th>
+              <th class="tg-0lax">Losses</th>
+              <th class="tg-0lax">Draws</th>
+              <th class="tg-0lax">Superbowl Wins</th>
+              <th class="tg-0lax">Season</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax"></td>
+              <td class="tg-hmp3"></td>
+              <td class="tg-0lax"></td>
+              <td class="tg-hmp3"></td>
+              <td class="tg-0lax"></td>
+              <td class="tg-hmp3"></td>
+            </tr>
+          </tbody>
+          </table>
+
+
+
           <br/>
         </div>
       </div>
     </div>
     </div>
+
+
+    
+
+   
+
     
     )
 }
