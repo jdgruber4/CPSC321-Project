@@ -4,6 +4,7 @@
 $servername = "localhost";
 $username = "username";
 $password = "password";
+$dbname = "gheberling_DB"; 
 
 // Create connection
 $conn = new mysqli($servername, $username, $password);
