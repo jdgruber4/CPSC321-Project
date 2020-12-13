@@ -1,6 +1,18 @@
 <?php
 
-//needs a requrie staement to the database
+//needs a requrie statement to the database
+$servername = "localhost";
+$username = "username";
+$password = "password";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
 
 $sql = "SELECT * FROM Players";
 $result = mysqli_query($dbc, $sql) or die("Bad Query: $sql");
