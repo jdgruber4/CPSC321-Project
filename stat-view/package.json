@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "express": "^4.17.1",
     "mssql": "^6.2.3",
+    "mysql": "github:mysqljs/mysql",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.0",
